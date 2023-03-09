@@ -6,3 +6,9 @@ while True:
   
   display.show(Image.HEART_SMALL)
   sleep(delay)
+
+if button_a.was_pressed():
+  delay = delay+200
+
+if button_b.was_pressed():
+  delay = delay-200    
